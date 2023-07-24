@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Car Dheko</title>
+</head>
+<body>
+
+    <!-- main-container -->
+    <main class="main_container">
+
+        <img class="car_img" src="./Assets/image1.webp" alt="rolls1">
+
+        <div class="info">
+
+        
+        <p class="tag">Benz</p>
+        <h1>Mercedez Benz c300 2022</h1>
+
+        <!-- info -->
+        <div class="info_container">
+            <div class="det">
+                <img src="./Assets/car.svg" alt="car">
+                <p>Mileage: 6400 Kms</p>
+            </div>
+            <div class="det">
+                <img src="./Assets/gas.svg" alt="gas">
+                <p>Fuel:12 Kmpl</p>
+            </div>
+            <div class="det">
+                <img src="./Assets/shield.svg" alt="shield">
+                <div class="safety_info">
+                        <p >Safety: </p>
+                    <div class="stars">
+                        <img src="./Assets/star.png" alt="star">
+                        <img src="./Assets/star.png" alt="star">
+                        <img src="./Assets/star.png" alt="star">
+                        <img src="./Assets/star.png" alt="star">
+                        <img src="./Assets/star.png" alt="star">
+                    
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+
+        <!-- additional details -->
+
+        <div class="add_info">
+            <p>Pick a Color:</p>
+
+            <div class="color_picker">
+               <!-- color picker -->
+                <div class="colors">
+                    <button class="clr-btn" 
+                    type="button" id="1" data-value="1"></button>
+                    <button class="clr-btn" type="button" id="2"></button>
+                    <button class="clr-btn" type="button" id="3"></button>
+                </div>
+                <!-- price -->
+                <div class="price">
+                    <h2>$134,450</h2>
+                    <h2>
+                        <s>$140,500</s>
+                    </h2>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- action button -->
+        <button class="cart_btn">Add to Cart</button>
+    </div>
+<script src="./app.js"></script>
+    </main>
+</body>
+</html>
